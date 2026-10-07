@@ -20,13 +20,99 @@
     <!------------------------------>
     <!-- Stuff for body goes here -->
 
+    <!-- Start of Top Navbar -->
+    <nav class="navbar navbar-expand-sm bg-success bg-gradient">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">
+                <img src="./images/hikeapp.png" height="36">
+                Hike-athon
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Features</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            My profile
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- End of Top Navbar -->
+
+    <!-- Start of Hero Section -->
+    <div class="px-4 py-5 my-5 text-center"> <img class="d-block mx-auto mb-4" src="./images/hikeapp.png" alt=""
+            width="72" height="57">
+        <h1 class="display-5 fw-bold text-body-emphasis">Start a hike-athon</h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">Let's start the adventure now.</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
+                    class="btn btn-primary btn-lg px-4 gap-3">Log in/Sign up</button> </div>
+        </div>
+    </div>
+    <!-- End of Hero Section -->
+
+    <!-- Start of Card Groups -->
+    <h1 class="mb-4 px-4">Popular Hikes</h1>
+    <div class="card-group mx-6 px-4">
+        <div class="card">
+            <img src="./images/imghike1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mountain Hike</h5>
+                <p class="card-text">Beautiful mountains in the background.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/imghike2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Lake Hike</h5>
+                <p class="card-text">Nice lake view at the end.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./images/imghike3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Forest Hike</h5>
+                <p class="card-text">One with nature.</p>
+                <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div>
+    <!-- End of Card Groups -->
+
 
     <!---------------------------------------------->
     <!-- Your own JavaScript functions go here    -->
     <!---------------------------------------------->
 
     <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+    <script type="module" src="./src/main.js"></script>
 
 </body>
 
